@@ -27,6 +27,9 @@ namespace ProjectIdCard
                 app.UseDeveloperExceptionPage();
             }
 
+            //added for wwwroot file usage
+            app.UseStaticFiles();
+
             app.UseRouting();
 
             // for core version 2.0
@@ -38,6 +41,7 @@ namespace ProjectIdCard
             //        );
             //});
 
+            //added for which page show in first
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllerRoute(

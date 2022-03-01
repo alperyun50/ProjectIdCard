@@ -35,5 +35,29 @@ namespace ProjectIdCard.Controllers
 
             return View(ktp);
         }
+
+        public IActionResult Index6()
+        {
+            ViewBag.deger1 = "naber olm!..";
+            return View();
+        }
+
+        public IActionResult Index7()
+        {
+             
+            return View();
+        }
+
+        public IActionResult Index8()
+        {
+
+            return View();
+        }
+
+        public IActionResult Index9()
+        {
+
+            return View();
+        }
     }
 }
